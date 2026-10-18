@@ -1,0 +1,46 @@
+{
+  "selection_metric": "validation_average_precision",
+  "selected_model": "XGBoost",
+  "selected_threshold": 0.9924607872962952,
+  "threshold_selection": "maximize_validation_f1",
+  "validation": {
+    "Logistic Regression": {
+      "accuracy": 0.978628777416259,
+      "precision": 0.06707946336429309,
+      "recall": 0.8783783783783784,
+      "f1": 0.12464046021093,
+      "roc_auc": 0.9683900961951001,
+      "average_precision": 0.6300872677700333
+    },
+    "XGBoost": {
+      "accuracy": 0.9979401231244587,
+      "precision": 0.4485294117647059,
+      "recall": 0.8243243243243243,
+      "f1": 0.580952380952381,
+      "roc_auc": 0.981980608882853,
+      "average_precision": 0.8038530054592711
+    }
+  },
+  "validation_tuned": {
+    "accuracy": 0.9992977692469746,
+    "precision": 0.8666666666666667,
+    "recall": 0.7027027027027027,
+    "f1": 0.7761194029850746,
+    "roc_auc": 0.981980608882853,
+    "average_precision": 0.8038530054592711
+  },
+  "test": {
+    "accuracy": 0.9994382285473526,
+    "precision": 0.9464285714285714,
+    "recall": 0.7162162162162162,
+    "f1": 0.8153846153846154,
+    "roc_auc": 0.9623916967051463,
+    "average_precision": 0.8086701501999599
+  },
+  "test_confusion_matrix": {
+    "tn": 42645,
+    "fp": 3,
+    "fn": 21,
+    "tp": 53
+  }
+}
